@@ -1,0 +1,236 @@
+$comment
+	File created using the following command:
+		vcd file AluFinal.msim.vcd -direction
+$end
+$date
+	Fri Jul 27 16:59:41 2018
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module AluFinal_vlg_vec_tst $end
+$var reg 4 ! A [3:0] $end
+$var reg 4 " B [3:0] $end
+$var reg 4 # ground [3:0] $end
+$var reg 2 $ p1p2 [1:0] $end
+$var reg 1 % Po $end
+$var wire 1 & Aluout [3] $end
+$var wire 1 ' Aluout [2] $end
+$var wire 1 ( Aluout [1] $end
+$var wire 1 ) Aluout [0] $end
+$var wire 1 * cout $end
+$var wire 1 + overflow $end
+$var wire 1 , sampler $end
+$scope module i1 $end
+$var wire 1 - gnd $end
+$var wire 1 . vcc $end
+$var wire 1 / unknown $end
+$var tri1 1 0 devclrn $end
+$var tri1 1 1 devpor $end
+$var tri1 1 2 devoe $end
+$var wire 1 3 inst4|inst51|LPM_ADD_SUB_component|auto_generated|result_int[2]~4_combout $end
+$var wire 1 4 inst4|inst51|LPM_ADD_SUB_component|auto_generated|result_int[3]~6_combout $end
+$var wire 1 5 inst4|inst52|LPM_MUX_component|auto_generated|result_node[3]~0_combout $end
+$var wire 1 6 inst4|inst52|LPM_MUX_component|auto_generated|result_node[1]~2_combout $end
+$var wire 1 7 inst4|inst52|LPM_MUX_component|auto_generated|result_node[0]~3_combout $end
+$var wire 1 8 ground[3]~input_o $end
+$var wire 1 9 ground[1]~input_o $end
+$var wire 1 : B[1]~input_o $end
+$var wire 1 ; ground[0]~input_o $end
+$var wire 1 < overflow~output_o $end
+$var wire 1 = cout~output_o $end
+$var wire 1 > Aluout[3]~output_o $end
+$var wire 1 ? Aluout[2]~output_o $end
+$var wire 1 @ Aluout[1]~output_o $end
+$var wire 1 A Aluout[0]~output_o $end
+$var wire 1 B A[3]~input_o $end
+$var wire 1 C ground[2]~input_o $end
+$var wire 1 D B[2]~input_o $end
+$var wire 1 E inst4|inst52|LPM_MUX_component|auto_generated|result_node[2]~1_combout $end
+$var wire 1 F A[1]~input_o $end
+$var wire 1 G A[0]~input_o $end
+$var wire 1 H inst4|inst51|LPM_ADD_SUB_component|auto_generated|result_int[0]~1_cout $end
+$var wire 1 I inst4|inst51|LPM_ADD_SUB_component|auto_generated|result_int[1]~3 $end
+$var wire 1 J inst4|inst51|LPM_ADD_SUB_component|auto_generated|result_int[2]~5 $end
+$var wire 1 K inst4|inst51|LPM_ADD_SUB_component|auto_generated|result_int[3]~7 $end
+$var wire 1 L inst4|inst51|LPM_ADD_SUB_component|auto_generated|result_int[4]~9 $end
+$var wire 1 M inst4|inst51|LPM_ADD_SUB_component|auto_generated|result_int[5]~10_combout $end
+$var wire 1 N p1p2[1]~input_o $end
+$var wire 1 O Po~input_o $end
+$var wire 1 P A[2]~input_o $end
+$var wire 1 Q inst54|LPM_MUX_component|auto_generated|result_node[3]~2_combout $end
+$var wire 1 R p1p2[0]~input_o $end
+$var wire 1 S inst4|inst51|LPM_ADD_SUB_component|auto_generated|result_int[4]~8_combout $end
+$var wire 1 T B[3]~input_o $end
+$var wire 1 U inst54|LPM_MUX_component|auto_generated|result_node[3]~0_combout $end
+$var wire 1 V inst54|LPM_MUX_component|auto_generated|result_node[3]~1_combout $end
+$var wire 1 W inst54|LPM_MUX_component|auto_generated|result_node[3]~3_combout $end
+$var wire 1 X inst54|LPM_MUX_component|auto_generated|result_node[2]~4_combout $end
+$var wire 1 Y inst54|LPM_MUX_component|auto_generated|result_node[2]~5_combout $end
+$var wire 1 Z inst54|LPM_MUX_component|auto_generated|result_node[2]~6_combout $end
+$var wire 1 [ inst54|LPM_MUX_component|auto_generated|result_node[2]~7_combout $end
+$var wire 1 \ inst54|LPM_MUX_component|auto_generated|result_node[1]~8_combout $end
+$var wire 1 ] inst54|LPM_MUX_component|auto_generated|result_node[1]~9_combout $end
+$var wire 1 ^ inst54|LPM_MUX_component|auto_generated|result_node[1]~10_combout $end
+$var wire 1 _ inst54|LPM_MUX_component|auto_generated|result_node[1]~11_combout $end
+$var wire 1 ` B[0]~input_o $end
+$var wire 1 a inst54|LPM_MUX_component|auto_generated|result_node[0]~12_combout $end
+$var wire 1 b inst4|inst51|LPM_ADD_SUB_component|auto_generated|result_int[1]~2_combout $end
+$var wire 1 c inst54|LPM_MUX_component|auto_generated|result_node[0]~13_combout $end
+$var wire 1 d inst54|LPM_MUX_component|auto_generated|result_node[0]~14_combout $end
+$var wire 1 e inst54|LPM_MUX_component|auto_generated|result_node[0]~15_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1111 !
+b0 "
+b0 #
+b0 $
+0%
+1)
+1(
+1'
+1&
+0*
+0+
+x,
+0-
+1.
+x/
+10
+11
+12
+13
+14
+05
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+1>
+1?
+1@
+1A
+1B
+0C
+0D
+0E
+1F
+1G
+0H
+1I
+0J
+1K
+0L
+0M
+0N
+0O
+1P
+1Q
+0R
+1S
+0T
+0U
+0V
+1W
+0X
+0Y
+1Z
+1[
+0\
+0]
+1^
+1_
+0`
+0a
+1b
+0c
+1d
+1e
+$end
+#100000
+b111 !
+b11 !
+b1 !
+b0 !
+b1000 "
+b1100 "
+b1110 "
+b1111 "
+1%
+1`
+1:
+1D
+1T
+0G
+0F
+0P
+0B
+1O
+0,
+0^
+0Q
+0b
+0d
+0Z
+03
+04
+0S
+1H
+1b
+0_
+0W
+0e
+0[
+0@
+0>
+0A
+0?
+0(
+0&
+0)
+0'
+#200000
+0%
+0O
+1,
+1a
+1\
+1X
+1U
+0H
+1E
+17
+16
+15
+14
+13
+1S
+#210000
+b111 "
+b11 "
+b1 "
+b0 "
+0`
+0:
+0D
+0T
+0,
+07
+06
+0E
+05
+0b
+03
+04
+0S
+#1000000

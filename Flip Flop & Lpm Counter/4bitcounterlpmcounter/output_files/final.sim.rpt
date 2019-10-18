@@ -1,0 +1,195 @@
+Simulator report for final
+Sun Feb 25 23:08:21 2018
+Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 25 nodes     ;
+; Simulation Coverage         ;      86.21 % ;
+; Total Number of Transitions ; 693          ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone III  ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                                                ;
++--------------------------------------------------------------------------------------------+------------------------------------------------------+---------------+
+; Option                                                                                     ; Setting                                              ; Default Value ;
++--------------------------------------------------------------------------------------------+------------------------------------------------------+---------------+
+; Simulation mode                                                                            ; Functional                                           ; Timing        ;
+; Start time                                                                                 ; 0 ns                                                 ; 0 ns          ;
+; Simulation results format                                                                  ; VWF                                                  ;               ;
+; Vector input source                                                                        ; C:/Users/Ayas/Desktop/4bitcounterfinal/Waveform1.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                                                   ; On            ;
+; Check outputs                                                                              ; Off                                                  ; Off           ;
+; Report simulation coverage                                                                 ; On                                                   ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                                                   ; On            ;
+; Display missing 1-value coverage report                                                    ; On                                                   ; On            ;
+; Display missing 0-value coverage report                                                    ; On                                                   ; On            ;
+; Detect setup and hold time violations                                                      ; Off                                                  ; Off           ;
+; Detect glitches                                                                            ; Off                                                  ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                                                  ; Off           ;
+; Generate Signal Activity File                                                              ; Off                                                  ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                                                  ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                                                  ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                                                   ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE                                           ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                                                  ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                                                  ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                                                 ; Auto          ;
+; Interconnect Delay Model Type                                                              ; Transport                                            ; Transport     ;
+; Cell Delay Model Type                                                                      ; Transport                                            ; Transport     ;
++--------------------------------------------------------------------------------------------+------------------------------------------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 64-Bit to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      86.21 % ;
+; Total nodes checked                                 ; 25           ;
+; Total output ports checked                          ; 29           ;
+; Total output ports with complete 1/0-value coverage ; 25           ;
+; Total output ports with no 1/0-value coverage       ; 2            ;
+; Total output ports with no 1-value coverage         ; 4            ;
+; Total output ports with no 0-value coverage         ; 2            ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                                                              ;
++----------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                                ; Output Port Name                                                                                           ; Output Port Type ;
++----------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+------------------+
+; |final|carryout                                                                                          ; |final|carryout                                                                                            ; pin_out          ;
+; |final|sload                                                                                             ; |final|sload                                                                                               ; out              ;
+; |final|clock                                                                                             ; |final|clock                                                                                               ; out              ;
+; |final|counterenable                                                                                     ; |final|counterenable                                                                                       ; out              ;
+; |final|q[3]                                                                                              ; |final|q[3]                                                                                                ; pin_out          ;
+; |final|q[2]                                                                                              ; |final|q[2]                                                                                                ; pin_out          ;
+; |final|q[1]                                                                                              ; |final|q[1]                                                                                                ; pin_out          ;
+; |final|q[0]                                                                                              ; |final|q[0]                                                                                                ; pin_out          ;
+; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|_~16                  ; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|_~16                    ; out0             ;
+; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_comb_bita0    ; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_comb_bita0      ; combout          ;
+; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_comb_bita0    ; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_comb_bita0~COUT ; cout             ;
+; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_comb_bita1    ; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_comb_bita1      ; combout          ;
+; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_comb_bita1    ; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_comb_bita1~COUT ; cout             ;
+; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_comb_bita2    ; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_comb_bita2      ; combout          ;
+; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_comb_bita2    ; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_comb_bita2~COUT ; cout             ;
+; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_comb_bita3    ; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_comb_bita3      ; combout          ;
+; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_comb_bita3    ; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_comb_bita3~COUT ; cout             ;
+; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_reg_bit[3]    ; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_reg_bit[3]      ; regout           ;
+; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_reg_bit[2]    ; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_reg_bit[2]      ; regout           ;
+; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_reg_bit[1]    ; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_reg_bit[1]      ; regout           ;
+; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_reg_bit[0]    ; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_reg_bit[0]      ; regout           ;
+; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_reg_bit[3]~7  ; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_reg_bit[3]~7    ; out              ;
+; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_reg_bit[2]~8  ; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_reg_bit[2]~8    ; out              ;
+; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_reg_bit[1]~9  ; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_reg_bit[1]~9    ; out              ;
+; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_reg_bit[0]~10 ; |final|lpm_counter0:inst|lpm_counter:LPM_COUNTER_component|cntr_0rj:auto_generated|counter_reg_bit[0]~10   ; out              ;
++----------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++------------------------------------------------------+
+; Missing 1-Value Coverage                             ;
++----------------+------------------+------------------+
+; Node Name      ; Output Port Name ; Output Port Type ;
++----------------+------------------+------------------+
+; |final|data[3] ; |final|data[3]   ; out              ;
+; |final|data[2] ; |final|data[2]   ; out              ;
+; |final|data[1] ; |final|data[1]   ; out              ;
+; |final|data[0] ; |final|data[0]   ; out              ;
++----------------+------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++------------------------------------------------------+
+; Missing 0-Value Coverage                             ;
++----------------+------------------+------------------+
+; Node Name      ; Output Port Name ; Output Port Type ;
++----------------+------------------+------------------+
+; |final|data[3] ; |final|data[3]   ; out              ;
+; |final|data[0] ; |final|data[0]   ; out              ;
++----------------+------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Simulator
+    Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+    Info: Processing started: Sun Feb 25 23:08:21 2018
+Info: Command: quartus_sim --simulation_results_format=VWF final -c final
+Info (324025): Using vector source file "C:/Users/Ayas/Desktop/4bitcounterfinal/Waveform1.vwf"
+Info (310003): Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info (310004): Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info (310002): Simulation partitioned into 1 sub-simulations
+Info (328053): Simulation coverage is      86.21 %
+Info (328052): Number of transitions in simulation is 693
+Info (324045): Vector file final.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II 64-Bit Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 331 megabytes
+    Info: Processing ended: Sun Feb 25 23:08:21 2018
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
+
+

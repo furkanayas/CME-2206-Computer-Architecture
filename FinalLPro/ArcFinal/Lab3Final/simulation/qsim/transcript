@@ -1,0 +1,24 @@
+# do AluFinal.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module AluFinal
+# 
+# Top level modules:
+# 	AluFinal
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module AluFinal_vlg_sample_tst
+# -- Compiling module AluFinal_vlg_check_tst
+# -- Compiling module AluFinal_vlg_vec_tst
+# 
+# Top level modules:
+# 	AluFinal_vlg_vec_tst
+# vsim -L cycloneiii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.AluFinal_vlg_vec_tst 
+# Loading work.AluFinal_vlg_vec_tst
+# Loading work.AluFinal
+# Loading cycloneiii_ver.cycloneiii_lcell_comb
+# Loading cycloneiii_ver.cycloneiii_io_ibuf
+# Loading cycloneiii_ver.cycloneiii_io_obuf
+# Loading work.AluFinal_vlg_sample_tst
+# Loading work.AluFinal_vlg_check_tst
+# Simulation passed !
+# ** Note: $finish    : AluFinal.vt(263)
+#    Time: 1 us  Iteration: 0  Instance: /AluFinal_vlg_vec_tst/tb_out

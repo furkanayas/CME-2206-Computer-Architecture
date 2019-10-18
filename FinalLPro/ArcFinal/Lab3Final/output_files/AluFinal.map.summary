@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Aug 10 17:30:53 2018
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Web Edition
+Revision Name : AluFinal
+Top-level Entity Name : AluFinal
+Family : Cyclone III
+Total logic elements : 117
+    Total combinational functions : 117
+    Dedicated logic registers : 12
+Total registers : 12
+Total pins : 36
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
